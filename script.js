@@ -21,7 +21,7 @@ async function buildAndDownload() {
     status.innerText = "Designing your one-page CV...";
 
     try {
-        const res = await fetch("http://localhost:3000/generate", {
+        const res = await fetch("https://auto-cv-app.onrender.com/generate", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),
