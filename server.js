@@ -28,7 +28,7 @@ User Data to Process:
 - Projects: ${projects}
 
 CRITICAL INSTRUCTIONS:
-**IMPORTANT: Your entire response must be 220 words or fewer. Never exceed this limit. Prioritize brevity, clarity, and professionalism.
+**IMPORTANT: Your entire response must be 300 words or fewer. Never exceed this limit. Prioritize brevity, clarity, and professionalism.
 1. **NO SKIPPING**: You must include a section for Education, Contact, Experience, Skills, and Projects. If the input for a section is brief, use your knowledge to expand it into professional bullet points.
 2. **EXPAND & POLISH**: Transform simple phrases into professional achievements using action verbs (e.g., "Led," "Developed," "Optimized").
 3. **HTML STRUCTURE**:
