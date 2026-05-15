@@ -1,0 +1,120 @@
+/* =========================
+   RESET & APP UI
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #111827, #0b1220);
+  color: #e5e7eb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* This centers the FORM on your screen */
+  padding: 40px 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  background: rgba(17, 24, 39, 0.95);
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+h1 { text-align: center; margin-bottom: 10px; }
+p { text-align: center; color: #fcfcfc; margin-bottom: 20px; font-size: 14px; }
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* =========================
+   PDF PRINT AREA (The Fix)
+========================= */
+#pdf-gate {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  width: 800px; 
+}
+
+#cv-print-target {
+  background: white !important;
+  color: black !important;
+  width: 100%;
+  padding: 0.5in 0.7in; /* Standard resume padding */
+  
+  /* CRITICAL: Force content to start at the top */
+  display: block !important; 
+  text-align: left; /* Default alignment */
+  min-height: 1050px; /* Ensures a full A4 page look */
+}
+
+/* Internal Centering for Headers */
+#cv-print-target .header-section {
+  text-align: center !important; /* Horizontally center name/contact */
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#cv-print-target h1 {
+  color: black !important;
+  font-size: 28px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+#cv-print-target h2 {
+  font-size: 16px;
+  border-bottom: 1.5px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#cv-print-target ul {
+  padding-left: 20px;
+}
+
+#cv-print-target li {
+  font-size: 13px;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

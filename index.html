@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI CV Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Auto CV builder</h1>
+        <p>Tell us who you are, And we'll make a CV for you in PDF form</p>
+
+        <input id="name" placeholder="Full Name">
+        <input id="email" placeholder="Email">
+        <input id="phone" placeholder="Phone">
+        <input id="location" placeholder="Location">
+        <textarea id="education" placeholder="Education / Name of institution"></textarea>
+        <textarea id="experience" placeholder="Work Experience"></textarea>
+        <textarea id="skills" placeholder="Skills"></textarea>
+        <textarea id="projects" placeholder="Projects"></textarea>
+
+        <select id="language">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+        </select>
+
+        <button id="main-btn" onclick="buildAndDownload()">Download Professional CV</button>
+        <p id="status-msg" style="text-align: center; font-size: 12px; margin-top: 10px;"></p>
+
+        <!-- Hidden container for high-quality PDF capture -->
+        <div id="pdf-gate">
+            <div id="cv-print-target">
+                <!-- AI content arrives here -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
