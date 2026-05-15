@@ -38,12 +38,12 @@ CRITICAL INSTRUCTIONS:
 4. **JSON FORMAT**: Return ONLY valid JSON: {"html": "..."}. No markdown code blocks.
 
 REQUIRED SECTIONS:
+- Contact (Name, Email, Number, Location)
 - Professional Summary (Create a 2-3 sentence hook based on their experience).
 - Professional Experience (Minimum 3 detailed bullets per role).
 - Education.
 - Skills (Categorize them if possible, e.g., Technical vs. Soft Skills).
 - Key Projects.
-- Contact (Name, Email, Number, Location)
 `;
 
 
